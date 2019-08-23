@@ -1,0 +1,115 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<img src=\"https://www.python.org/static/img/python-logo@2x.png\"/>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### What is Python?\n",
+    "- Specification for programming language\n",
+    "- What is programming language\n",
+    "  - Computers perform calculations\n",
+    "  - Computers store results\n",
+    "- Problem solving, knowledge of concepts, programming skills\n",
+    "\n",
+    "#### New to programming? Can't passively absorb programming as a skill. Practice. Practice. Practice. \n",
+    "- represent knowledge with DATA STRUCTURES\n",
+    "- iteration and flow control\n",
+    "- abstraction of procedures and data types\n",
+    "- introduction into organizing and modularizing system using OOA/D (Object Oriented Analysis and Desing)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Why Python?\n",
+    "#####     Easy to code & Easy to read: Clean, Concise, Readable, Versatile"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### We are not alone:\n",
+    "- Instagram: \n",
+    "- Google:  \n",
+    "- Netflix: \n",
+    "- YouTube\n",
+    "- Dropbox \n",
+    "- Uber \n",
+    "- lyft\n",
+    "- Pinterest\n",
+    "- reddit"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Choices\n",
+    "#### Python - is just a set specifications :\n",
+    " - CPython - reference implementation\n",
+    " - PyPy - drop in implementation(5 times faster) \n",
+    " - Jython - JVM\n",
+    " - IronPython - .Net\n",
+    " - PythonNet - .Net"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Housekeeping:  MQ and Python\n",
+    "##### 2.7 vs 3.7"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Setup\n",
+    "- Shell\n",
+    "- IDE(Code editor, Debuger, Project management, etc...) : PyCharm, IntelliJ + Python plugin, Spyder, VS Code + Python plugin\n",
+    "- Jupyter\n",
+    "    - Jupyter local\n",
+    "    - Jupyter web\n",
+    "- Anaconda"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Branch (virtualenv_airflow_uat.bin.py2)",
+   "language": "python",
+   "name": "virtualenv_airflow_uat.bin.py2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
