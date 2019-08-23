@@ -1,115 +1,158 @@
 {
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "<img src=\"https://www.python.org/static/img/python-logo@2x.png\"/>"
-   ]
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Branch (virtualenv_airflow_uat.bin.py2)",
+      "language": "python",
+      "name": "virtualenv_airflow_uat.bin.py2"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 2
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython2",
+      "version": "2.7.8"
+    },
+    "colab": {
+      "name": "lab1_ex0_introduction",
+      "version": "0.3.2",
+      "provenance": [],
+      "include_colab_link": true
+    }
   },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### What is Python?\n",
-    "- Specification for programming language\n",
-    "- What is programming language\n",
-    "  - Computers perform calculations\n",
-    "  - Computers store results\n",
-    "- Problem solving, knowledge of concepts, programming skills\n",
-    "\n",
-    "#### New to programming? Can't passively absorb programming as a skill. Practice. Practice. Practice. \n",
-    "- represent knowledge with DATA STRUCTURES\n",
-    "- iteration and flow control\n",
-    "- abstraction of procedures and data types\n",
-    "- introduction into organizing and modularizing system using OOA/D (Object Oriented Analysis and Desing)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Why Python?\n",
-    "#####     Easy to code & Easy to read: Clean, Concise, Readable, Versatile"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### We are not alone:\n",
-    "- Instagram: \n",
-    "- Google:  \n",
-    "- Netflix: \n",
-    "- YouTube\n",
-    "- Dropbox \n",
-    "- Uber \n",
-    "- lyft\n",
-    "- Pinterest\n",
-    "- reddit"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Choices\n",
-    "#### Python - is just a set specifications :\n",
-    " - CPython - reference implementation\n",
-    " - PyPy - drop in implementation(5 times faster) \n",
-    " - Jython - JVM\n",
-    " - IronPython - .Net\n",
-    " - PythonNet - .Net"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Housekeeping:  MQ and Python\n",
-    "##### 2.7 vs 3.7"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Setup\n",
-    "- Shell\n",
-    "- IDE(Code editor, Debuger, Project management, etc...) : PyCharm, IntelliJ + Python plugin, Spyder, VS Code + Python plugin\n",
-    "- Jupyter\n",
-    "    - Jupyter local\n",
-    "    - Jupyter web\n",
-    "- Anaconda"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Branch (virtualenv_airflow_uat.bin.py2)",
-   "language": "python",
-   "name": "virtualenv_airflow_uat.bin.py2"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 2
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython2",
-   "version": "2.7.8"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 4
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/azhanov/introduction-to-python/blob/master/lab1_ex0_introduction\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9IJVxRJykFLL",
+        "colab_type": "text"
+      },
+      "source": [
+        "<img src=\"https://www.python.org/static/img/python-logo@2x.png\"/>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xOyO9J6dkFLO",
+        "colab_type": "text"
+      },
+      "source": [
+        "### What is Python?\n",
+        "- Specification for programming language\n",
+        "- What is programming language\n",
+        "  - Computers perform calculations\n",
+        "  - Computers store results\n",
+        "- Problem solving, knowledge of concepts, programming skills\n",
+        "\n",
+        "#### New to programming? Can't passively absorb programming as a skill. Practice. Practice. Practice. \n",
+        "- represent knowledge with DATA STRUCTURES\n",
+        "- iteration and flow control\n",
+        "- abstraction of procedures and data types\n",
+        "- introduction into organizing and modularizing system using OOA/D (Object Oriented Analysis and Desing)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DstgTwGhkFLP",
+        "colab_type": "text"
+      },
+      "source": [
+        "### Why Python?\n",
+        "#####     Easy to code & Easy to read: Clean, Concise, Readable, Versatile"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "36iJP7J6kFLQ",
+        "colab_type": "text"
+      },
+      "source": [
+        "### We are not alone:\n",
+        "- Instagram: \n",
+        "- Google:  \n",
+        "- Netflix: \n",
+        "- YouTube\n",
+        "- Dropbox \n",
+        "- Uber \n",
+        "- lyft\n",
+        "- Pinterest\n",
+        "- reddit"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "zOAkbaYHkFLS",
+        "colab_type": "text"
+      },
+      "source": [
+        "### Choices\n",
+        "#### Python - is just a set specifications :\n",
+        " - CPython - reference implementation\n",
+        " - PyPy - drop in implementation(5 times faster) \n",
+        " - Jython - JVM\n",
+        " - IronPython - .Net\n",
+        " - PythonNet - .Net"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fFisydVqkFLV",
+        "colab_type": "text"
+      },
+      "source": [
+        "#### Housekeeping:  MQ and Python\n",
+        "##### 2.7 vs 3.7"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "shQT_8fdkFLX",
+        "colab_type": "text"
+      },
+      "source": [
+        "### Setup\n",
+        "- Shell\n",
+        "- IDE(Code editor, Debuger, Project management, etc...) : PyCharm, IntelliJ + Python plugin, Spyder, VS Code + Python plugin\n",
+        "- Jupyter\n",
+        "    - Jupyter local\n",
+        "    - Jupyter web\n",
+        "- Anaconda"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "528ZIOdzkFLX",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
 }
